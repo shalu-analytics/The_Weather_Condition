@@ -1,101 +1,38 @@
-# Project Title: The Weather Condition  
+# Project Name: The-Weather-Condition
 
-[![Python Version](https://shields.io)](https://python.org)
-[![License: MIT](https://shields.io)](https://opensource.org)
+A simple Python data analysis project using Pandas and Jupyter Notebook in VS Code.
 
-A brief paragraphs explaining the problem this project solves and who it is for. For example: "This Python application automatically scrapes real-time stock data and sends daily email summaries to users."
+## ⚙️ Prerequisites 
 
-## 🚀 Features
+Before running the code, make sure you have installed:
+1. **VS Code** (Visual Studio Code)
+2. **Python** (Latest Version)
 
-- **Automated Scraping:** Fetches data from multiple web sources seamlessly.
-- **Data Export:** Saves reports directly into CSV and PDF formats.
-- **Fast Execution:** Uses asynchronous programming for quick processing.
-- **User-Friendly CLI:** Easy-to-use command-line interface.
+## 🛠️ Step-by-Step Setup in VS Code
 
-## 📋 Prerequisites
+Follow these simple steps to run the project:
 
-Before running this project, ensure you have the following installed:
-- Python 3.10 or higher
-- Git
+### Step 1: Open Project in VS Code
+1. Open **VS Code**.
+2. Go to **File > Open Folder** and select this project folder.
 
-## 🛠️ Installation & Setup
+### Step 2: Install Required Extensions
+In VS Code, go to the Extensions tab (left sidebar icon) and install:
+- **Python 3.13.14** (by Microsoft)
+- **Jupyter** (by Microsoft)
 
-Follow these steps to set up the project locally on your machine:
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com
-   cd your-repo-name
-   ```
-
-2. **Create a virtual environment (Recommended):**
-   ```bash
-   # On Windows
-   python -m venv venv
-   venv\Scripts\activate
-
-   # On macOS/Linux
-   python3 -m venv venv
-   source venv/bin/activate
-   ```
-
-3. **Install the dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Set up environment variables:**
-   Create a `.env` file in the root directory and add your keys:
-   ```env
-   API_KEY=your_secret_api_key_here
-   DB_PASSWORD=your_password
-   ```
-
-## 💻 Usage
-
-To run the main application, execute the following command:
+### Step 3: Install Pandas Library
+Open your terminal inside VS Code (**Ctrl + `** or **View > Terminal**) and run this command to install Pandas:
 
 ```bash
-python main.py
+pip install pandas 
 ```
 
-### Example Usage:
-If your script takes arguments, show an example:
-```bash
-python main.py --fetch "tech" --limit 50
-```
+### Step 4: Run the Code
+1. Click and open the notebook file (e.g., `The Weather Dataset.ipynb`).
+2. If prompted at the top right, select your **Python Kernel/Environment**.
+3. Click the **Run All** button at the top, or click the **Play icon (▶️)** next to each code cell to run the Pandas code.
 
-## 📁 Project Structure
-
-```text
-your-repo-name/
-│
-├── data/               # Local data storage files
-├── src/                # Main source code logic
-│   ├── scraper.py
-│   └── utils.py
-├── .env.example        # Sample environment variables
-├── .gitignore          # Files to ignore in Git (like venv/)
-├── main.py             # Entry point of the application
-├── README.md           # Project documentation
-└── requirements.txt    # List of external libraries
-```
-
-## 🤝 Contributing
-
-Contributions are welcome! If you find a bug or want to suggest an improvement:
-1. Fork the repository.
-2. Create your feature branch (`git checkout -b feature/YourFeature`).
-3. Commit your changes (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature/YourFeature`).
-5. Open a Pull Request.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## ✉️ Contact
-
-Your Name - [@your_twitter](https://twitter.com) - email@example.com
-
-Project Link: [https://github.com](https://github.com)
+## 📁 Project Files
+- `The Weather Dataset.ipynb` - The main file containing Pandas data analysis code.
+- `The Weather Dataset.csv` - The dataset file used in this project (if applicable).
