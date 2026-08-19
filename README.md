@@ -1,4 +1,4 @@
-# Project Name: The-Weather-Condition
+# Project Name: The_Weather_Condition
 
 A simple Python data analysis project using Pandas and Jupyter Notebook in VS Code.
 
